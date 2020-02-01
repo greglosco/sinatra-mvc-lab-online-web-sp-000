@@ -1,6 +1,6 @@
 class PigLatinizer 
   
-  def piglatinize
+  def piglatinize(input)
    input.strip(" ").length == 1 ? piglatinze_word(input) : piglatinize_sentence(input)
   end
   
