@@ -16,7 +16,7 @@ class PigLatinizer
     elsif consonant?(input[0]) && consonant?(input[1])
       input = input.slice(2..-1) + input.slice(0,2)
     elsif
-      input = input.slice(1..-1) + input.slice[0]
+      input = input.slice(1..-1) + input.slice(0)
     end
       input << "ay"
   end
