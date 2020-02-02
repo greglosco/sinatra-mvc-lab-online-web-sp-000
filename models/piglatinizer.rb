@@ -23,8 +23,8 @@ class PigLatinizer
   
   def piglatinize_sentence(input)
     input.split.collect do |word|
-      piglatinze_word(word).join(" ")
-    end
+      piglatinze_word(word)
+    end.join(" ")
   end
   
 end
